@@ -1,0 +1,9 @@
+# Data
+data/*
+
+# Config
+*.vscode*
+
+# Python
+*__pycache__
+*.pyc

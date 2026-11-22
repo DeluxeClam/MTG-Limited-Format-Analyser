@@ -1,0 +1,20 @@
+name: Kaldheim
+
+type: retail
+
+set_code: KHM
+
+draft_boosters: 3
+
+exposure:
+  method: asfan
+
+graph:
+  layers:
+    - removal
+    - synergy
+    - archetype
+    - mana
+
+modelling:
+  target: gih_wr
