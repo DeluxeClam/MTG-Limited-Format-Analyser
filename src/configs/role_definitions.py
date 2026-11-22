@@ -101,10 +101,10 @@ ROLE_DEFINITIONS = {
     "mana_fixing": "Provides access to additional colors of mana.",
     "mana_sink": "Provides an ability which is expensive, usually repeatable.",
     
-    "removal": "Removes the opponent's cards, usually destroy, exile, or deal damage effects.",
+    "removal": "Removes the opponent's cards, usually destroy, exile, or deal damage effects. Damage effects that can only damage players are not removal.",
     "disruption": "Disrupts opponents permanents without removing them, for example tapping creatures, preventing activated abilities from being activated, reducing creature power, etc.",
     "counterspell": "Counters a spell before it resolves.",
-    "protection": "Protects creatures or permanents from removal or combat.",
+    "protection": "Protects creatures or permanents from removal or combat, for example granting hexproof or indestructible, increasing toughness, returning to your hand, etc.",
     
     "discard_outlet": "Enables its controller to discard one or more cards.",
     "discard_payoff": "Provides its controller a benefit when they or their opponent discards cards.",

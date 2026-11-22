@@ -241,8 +241,6 @@ def annotate_set(
     annotation_evidence = []
     rejected_evidence = []
     for card in tqdm(normalised_cards.to_dicts()):
-        if card.get("name") == "The Trickster-God's Heist":
-            pass
         card_text = card.get("card_text")
         try:
             result = classify_card(card_text, annotation_llmodel)

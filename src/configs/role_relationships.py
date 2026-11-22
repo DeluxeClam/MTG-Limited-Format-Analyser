@@ -21,6 +21,7 @@ ROLE_LINKS = [
     ("graveyard_filler", "reanimation_effect", "supplies_targets", "graveyard"),
     ("graveyard_filler", "graveyard_recursion", "supplies_targets", "graveyard"),
     ("graveyard_filler", "creature_recursion", "supplies_targets", "graveyard"),
+    ("graveyard_filler", "reanimation_effect", "supplies_targets", "graveyard"),
 
     # Sacrifice
     ("sacrifice_outlet", "sacrifice_fodder", "uses", "sacrifice"),
@@ -42,7 +43,7 @@ ROLE_LINKS = [
 
     # Discard
     ("discard_outlet", "discard_payoff", "triggers", "discard"),
-    ("discard_outlet", "graveyard_filler", "enables", "graveyard"),
+    ("discard_outlet", "reanimation_effect", "enables", "graveyard"),
 
     # Mana
     ("ramp", "mana_sink", "supplies_mana", "mana"),
